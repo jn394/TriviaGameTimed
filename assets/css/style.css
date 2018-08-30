@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://www.50-best.com/images/harry_potter_wallpapers/simple_hogwarts_wallpaper.jpg);
+    font-family: 'Felipa', cursive;
+    margin-left: 150px;
+}
+
+.row {
+    background-color: bisque;
+    width: 90%;
+    align-content: center;
+}
+
+#display {
+    font-size: 30px;
+}
+
+#questions {
+    font-size: 23px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#score {
+    font-size: 20px;
+    width: 90%;
+    padding: 0;
+    margin-left: -15px;
+}
