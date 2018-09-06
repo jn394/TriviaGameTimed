@@ -28,3 +28,12 @@ label {
     padding: 0;
     margin-left: -15px;
 }
+
+.ans {
+    text-align: center;
+}
+
+.ans:hover {
+    transition: .5s ease;
+    background-color: orange;
+}

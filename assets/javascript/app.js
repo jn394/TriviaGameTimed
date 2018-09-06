@@ -249,24 +249,24 @@ $(document).ready(function () {
 
             score = (numberCorrect / numberQuestions) * 100;
             if (score <= 30) {
-                $("#gifs").append("<img src='https://media.giphy.com/media/XgIvYDNkLh49q/giphy.gif'>");
-                $("#results").append("<h3>" + "WOW You Really Are a Muggle" + "</h3>");
+                $("#endGifs").append("<img src='https://media.giphy.com/media/XgIvYDNkLh49q/giphy.gif'>");
+                $("#endResults").append("<h3>" + "Sorry But You Really Are a Muggle" + "</h3>");
             }
             else if (score > 30 && score <= 50) {
-                $("#gifs").append("<img src='http://mrwgifs.com/wp-content/uploads/2013/04/Daniel-Radcliffe-Crying-Gif-In-Harry-Potter.gif'>");
-                $("#results").append("<h3>" + "Awww It's Ok Atleast You Tried" + "</h3>");
+                $("#endGifs").append("<img src='http://mrwgifs.com/wp-content/uploads/2013/04/Daniel-Radcliffe-Crying-Gif-In-Harry-Potter.gif'>");
+                $("#endResults").append("<h3>" + "Awww It's Ok Atleast You Tried" + "</h3>");
             }
             else if (score > 50 && score <= 70) {
-                $("#gifs").append("<img src='http://lovelace-media.imgix.net/uploads/62/5889f760-a701-0131-b6c9-4ab1d83132ba.gif?'>");
-                $("#results").append("<h3>" + "Good Job! You're Pretty Good" + "</h3>");
+                $("#endGifs").append("<img src='http://lovelace-media.imgix.net/uploads/62/5889f760-a701-0131-b6c9-4ab1d83132ba.gif?'>");
+                $("#endResults").append("<h3>" + "Good Job! You're Pretty Good" + "</h3>");
             }
             else if (score > 70 && score <= 90) {
-                $("#gifs").append("<img src='https://media1.tenor.com/images/e8499a0f268be7bc76f80dd453ad2fe2/tenor.gif?itemid=4794040'>");
-                $("#results").append("<h3>" + "Amazing! You're Really Good" + "</h3>");
+                $("#endGifs").append("<img src='https://media1.tenor.com/images/e8499a0f268be7bc76f80dd453ad2fe2/tenor.gif?itemid=4794040'>");
+                $("#endResults").append("<h3>" + "Amazing! You're Really Good" + "</h3>");
             }
             else if (score = 100) {
-                $("#gifs").append("<img src='http://cdn1.alloy.com/wp-content/uploads/2015/06/harry-potter-wow.gif'>");
-                $("#results").append("<h3>" + "WOW!!! Somebody Read Their Books! A True Potter Head!" + "</h3>");
+                $("#endGifs").append("<img src='http://cdn1.alloy.com/wp-content/uploads/2015/06/harry-potter-wow.gif'>");
+                $("#endResults").append("<h3>" + "WOW!!! Somebody Read Their Books! A True Potter Head!" + "</h3>");
             };
             $("#score").append("<h3>" + "You Got " + score + "%" + " Correct!" + "</h3>");
         },
